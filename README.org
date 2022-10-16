@@ -1,0 +1,33 @@
+#+title: Rún
+#+author: Lucien Cartier-Tilet
+
+* Project setup
+#+begin_src shell
+npm install
+# or
+yarn
+#+end_src
+
+** Compile and hot-reload for development
+#+begin_src shell
+npm run serve
+# or
+yarn serve
+#+end_src
+
+** Compile and minify for production
+#+begin_src shell
+npm run build
+# or
+yarn build
+#+end_src
+
+** Lint and fix files
+#+begin_src shell
+npm run lint
+# or
+yarn lint
+#+end_src
+
+** Customize configuration
+See [[https://cli.vuejs.org/config/][Configuration Reference]].
